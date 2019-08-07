@@ -12,18 +12,18 @@ class Hello {
   }
 
   @test
-    'Hello World test'() {
+  'Hello World test'() {
     assert.equal(this.test.helloWorld(), 'Hello, World!');
   }
 
   @test
-    async 'Test an async function'() {
+  async 'Test an async function'() {
     const result = await this.test.testingAsync();
     assert.equal(result, 1);
   }
 
   @test
-    '1 = 1 test'() {
+  '1 = 1 test'() {
     assert.equal(1, 1);
   }
 }
