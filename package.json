@@ -1,0 +1,27 @@
+{
+  "name": "test-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "*",
+    "@types/mocha": "*",
+    "@types/node": "*",
+    "chai": "*",
+    "mocha": "*",
+    "nyc": "*",
+    "source-map-support": "*",
+    "tslint": "*",
+    "typescript": "*",
+    "mocha-typescript": "*",
+    "tslint-config-airbnb": "*"
+  },
+  "scripts": {
+    "pretest": "tsc",
+    "test": "nyc mocha",
+    "watch": "mocha-typescript-watch",
+    "prepare": "tsc"
+  },
+  "author": "Cesar Wibaut",
+  "license": "ISC"
+}
