@@ -1,7 +1,10 @@
 {
   "name": "test-mocha",
   "version": "1.0.0",
-  "description": "",
+  "description": "Testing the mocha typescript package",
+  "repository": {
+    "url": "https://github.com/CesarWibaut/Integration-test"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/chai": "*",
